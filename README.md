@@ -31,12 +31,12 @@
 
 ## 15- CRUM. En la terminología Scrum qué terminos se utilizan como sinónimo de:
 #### Jefe de proyecto.
-####Cliente.
-####Equipo de desarrollo.
+#### Cliente.
+#### Equipo de desarrollo.
 
 ## 16- SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum.
 
-##17- XP. Explica los 5 valores de la Programación Extrema.
+## 17- XP. Explica los 5 valores de la Programación Extrema.
 
-##18- XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas.
+## 18- XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas.
 
