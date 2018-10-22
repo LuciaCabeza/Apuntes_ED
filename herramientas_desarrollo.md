@@ -1,4 +1,4 @@
-#INTRODUCCIÓN
+##INTRODUCCIÓN
 
 **1. ¿Para que sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?**
 Un compilador es un programa informático que traduce un programa escrito en un lenguaje de programación a otro lenguaje de programación, generando un programa equivalente que la máquina será capaz de interpretar. Usualmente el segundo lenguaje es lenguaje de máquina, pero también puede ser un código intermedio (bytecode), o simplemente texto. Este proceso de traducción se conoce como compilación.
@@ -23,3 +23,38 @@ El código binario es un método de representación de números a la base 2, en 
 
 **5. ¿Qué tipo de código es el bytecode generado por el compilador de Java?**
 El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera recibir, para posteriormente ser compiladas a lenguaje de máquina, mediante un compilador JIT a la hora de su ejecución. Usualmente es el resultado de utilizar un compilador del lenguaje de programación Java (como javac), pero puede ser generado desde otros compiladores. 
+
+##HERRAMIENTAS DE DESARROLLO
+**1. Ejecuta el programa "Hola mundo" en los siguientes lenguajes:**
+
+**2. Para cada uno de los lenguajes anteriores, indica el proceso realizado para conseguir ejecutar el código: ¿compilación o interpretación?**
+- bash: interpretación
+- python: interpretación
+- php: interpretación
+- javascript (nodejs): interpretación
+- c: compilación
+- c++: compilación
+- java: compilación
+- ruby: interpretación
+- go: compilación
+- rust: compilación
+- lisp: interpretación
+- ensamblador (nasm): compilación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
