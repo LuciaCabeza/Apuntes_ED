@@ -41,9 +41,100 @@ El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera
 - lisp: interpretación
 - ensamblador (nasm): compilación
 
+**3. Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.**
 
+**4. Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:**
+- bash: .sh
+- python: .py
+- php: .php
+- javascript: .js
+- c: .c
+- c++: cpp
+- java: .java
+- ensamblador: .asm
+- ruby: .rb
+- go: .go
+- rust: .rs
+- lisp: .lisp
 
+**5. Scripts ejecutables para los lenguajes interpretados. Edita los scripts para los siguientes lenguajes:**
+- **bash**
+1.Editamos archivo hola.sh
 
+	#!/usr/bin/env bash
+	echo "Hola mundo"
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.sh
+
+   3.Ejecutamos
+
+	./hola.sh
+	
+- **python**
+1.Editamos archivo hola.py
+
+	#!/usr/bin/env python
+	print "Hola mundo"
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.py
+
+3.Ejecutamos
+
+	./hola.py
+
+- **php**
+1.Editamos archivo hola.php
+
+	\#!/usr/bin/env php
+	<?php 
+	echo "Hola mundo\n" 
+	?>
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.php
+
+3.Ejecutamos
+
+	./hola.php
+
+- **javascript**
+1.Editamos archivo hola.js
+
+	\#!/usr/bin/env node
+
+	console.log('Hola mundo');
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.js
+
+3.Ejecutamos
+
+	./hola.js
+
+- **java**
+
+1.Empaquetamos
+
+	jar  cvfe  hola.jar  Hola  Hola.class
+	
+2.Damos permiso de ejecución
+
+	chmod  +x  hola.jar
+	
+3.Ejecutamos
+
+	./hola.jar 
+	
+- **ruby**
+- **go**
+- **rust**
+- **lisp**
 
 
 
