@@ -42,6 +42,18 @@ El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera
 - ensamblador (nasm): compilación
 
 **3. Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.**
+    bash: chmod
+    python: python
+    php: php
+    javascript (nodejs): node
+    c: gcc
+    c++: g++
+    java: javac
+    ruby: ruby
+    go: go
+    rust: rustc
+    lisp: clisp
+    ensamblador (nasm): nasm
 
 **4. Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:**
 - bash: .sh
@@ -75,7 +87,7 @@ El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera
 - **python**
 1.Editamos archivo hola.py
 
-	#!/usr/bin/env python
+	\#!/usr/bin/env python
 	print "Hola mundo"
 
 2.Damos permisos de ejecución
@@ -88,7 +100,7 @@ El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera
 
 - **php**
 1.Editamos archivo hola.php
-
+	
 	\#!/usr/bin/env php
 	<?php 
 	echo "Hola mundo\n" 
@@ -132,12 +144,82 @@ El bytecode Java es el tipo de instrucciones que la máquina virtual Java espera
 	./hola.jar 
 	
 - **ruby**
+1.Editamos archivo hola.rb
+
+	\#!/usr/bin/env ruby
+	puts "Hola Mundo"
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.rb
+
+3.Ejecutamos
+
+	./hola.rb
+
 - **go**
+
+1.Editamos archivo hola.go
+
+	package main
+
+	import "fmt"
+
+	func main() {
+        fmt.Println("Hola mundo desde Go")
+	}
+
+2.Compilamos y enlazamos
+
+	go  build  hola.go
+
+3.Ejecutamos
+
+	./ hola 
+
+4.Si lo deseamos,en Go también es posible interpretar el código
+
+	go  run  hola.go
+	
 - **rust**
+
+1.Editamos archivo hola.rs
+
+	fn main() {
+    	println!("¡Hola, mundo! Desde RUST ");
+	}
+
+2.Compilamos y enlazamos
+
+	rustc  hola.rs
+
+3.Ejecutamos
+
+	./hola
+	
 - **lisp**
 
+1.Editamos archivo hola.lisp
 
+	\#!/usr/bin/env clisp
 
+	(format t "¡Hola, mundo!")
+
+2.Damos permisos de ejecución
+
+	chmod  +x  hola.lisp
+
+3.Ejecutamos
+
+	./hola.lisp
+
+**6.¿Qué extensión tienen los archivos de código objeto?**
+    c: a.out
+    c++: 
+    java: .class
+    ruby:
+    go
+    rust
 
 
 
